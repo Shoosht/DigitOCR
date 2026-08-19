@@ -18,7 +18,7 @@ def load_image(image_file):
 
 
 def show_image(image):
-    st.image(image, use_column_width=True)
+    st.image(image, use_container_width=True)
 
 
 def process_image(image, use_blur):
